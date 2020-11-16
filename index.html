@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="TE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAMPERO</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Using-FontAwesome-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <!--navegación-->
+        <nav>
+            <!--logo-->
+        <div a href="#" class="logo">Pampero</a></div>
+            <!--imagen logo-->
+        <div class="logo-img">
+            <img src="img/logo-P.png" width="50" height="50" left >
+        </div>
+            <!--menú-->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Contactanos</li>
+                <li><a href="#"></a>Team</li>
+            </ul> 
+            <!--barras-->
+            <div class="toggle"></div>
+        </nav>
+
+        <!--Texto-->
+        <div class="text-container">
+            <p>¡Hola!</p>
+            <p>Somos Pampero</p>
+            <p>Encontranos en todo el País</p>
+            <button class="hire-btn">Llamanos</button>
+            <button class="down-cv">Correo</button>
+        </div>
+
+        <!--Modelo-->
+        <img src="img/model.png" class="model" alt="model">
+
+    </section>
+
+    <!--acerca de la sección-->
+    <div class="about-container">
+        <!--img (logo de la tienda o modelo)-->
+        <img src="img/about-img.jpg">
+        <!--sobre el texto-->
+        <div class="about-text">
+            <p>Sobre Nosotros</p>
+            <p>Pampero</p>
+            <p></p>
+            <p>Productos genuinos, resistentes y funcionales con una excelente relación costo-beneficio que promueven el desarrollo sustentable.</p>
+        </div>
+    </div>
+
+
+    <!--Servicios-->
+    <div class="services">
+        <!--textos-->
+        <div class="services-text">
+        <p>Servicios</p>
+        <p>Servicios Requeridos</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quidem placeat necessitatibus nobis cumque temporibus quisquam nostrum dignissimos? Ducimus voluptatibus laudantium sunt inventore distinctio reprehenderit quidem enim aliquam dignissimos atque! Omnis minus sed rerum animi voluptatum nesciunt sint voluptatem accusamus voluptatibus quos maxime, ut eos accusantium, obcaecati unde facere ipsam?</p>
+    </div>
+    
+    <!--Contactanos-->
+    <div class="contact-me">
+        <p>¿Tienes dudas?</p>
+        <button>¡Contactanos!</button>
+    </div>
+
+    <!--Pie de página-->
+    <footer>
+        <p>Algo...</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum placeat quae vero eos laboriosam quod commodi, fugit qui amet.</p>
+        <!--Social-->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <!--Copyright-->
+        <p class="copyright">© 2020 Pampero. Todos los derechos reservados</p>
+    </footer>
+
+    <!--Barra Social Adjunta-->
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!--JQUery-->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+    </script>
+
+</body>
+</html>
