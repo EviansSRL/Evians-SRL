@@ -1706,6 +1706,7 @@ Sizzle.uniqueSort = function( results ) {
 
 	// Clear input after sorting to release objects
 	// See https://github.com/jquery/sizzle/pull/225
+
 	sortInput = null;
 
 	return results;
@@ -2435,6 +2436,7 @@ function addCombinator( matcher, combinator, base ) {
 							( outerCache[ elem.uniqueID ] = {} );
 
 						if ( skip && skip === elem.nodeName.toLowerCase() ) {
+
 							elem = elem[ dir ] || elem;
 						} else if ( ( oldCache = uniqueCache[ key ] ) &&
 							oldCache[ 0 ] === dirruns && oldCache[ 1 ] === doneName ) {
@@ -4251,6 +4253,7 @@ Data.prototype = {
 			// but we should not, see #8335.
 			// Always return an empty object.
 			if ( acceptData( owner ) ) {
+
 
 				// If it is a node unlikely to be stringify-ed or looped over
 				// use plain assignment
