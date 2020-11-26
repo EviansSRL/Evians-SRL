@@ -10,16 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--Using-FontAwesome-->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
     <!--stylesheet------------->
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<!--light-slider.css------------->
-<link rel="stylesheet" type="text/css" href="css/lightslider.css">
-<!--Jquery-------------------->
-<script type="text/javascript" src="js/Jquery.js"></script>
-<!--lightslider.js--------------->
-<script type="text/javascript" src="js/lightslider.js"></script>
 </head>
 </head>
 <body>
@@ -34,7 +26,7 @@
         <!--navegación-->
             <nav>
                 <a href="#about-container">Acerca de</a>
-                <a href="#autoWidth">Productos</a>
+                <a href="#carousel">Productos</a>
                 <a href="#contact-me">Contacto</a>
             </nav>
          
@@ -60,489 +52,230 @@
             <p>Somos una empresa especializada en la seguridad industrial. Ofrecemos Mamelucos Pruni 100% ignifugos, con todas las normas IRAM y las reglamentaciones de YPF. Ante cualquier duda contactenos a través de nuestras redes sociales o distintos medios de comunicación.</p>
         </div>
     </article>
+      <article class="carousel" id="carousel">
+            <div class="slick-list" id="slick-list">
+                  <button class="slick-arrow slick-prev" id="button-prev">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                  </button>
+                  <div class="slick-track" id="track">
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Mameluco Ignifugo</small>$9400</h4>
+                                          <picture>
+                                                <img src="images/1.jpg" alt="Image">
+                                          </picture>
+                                    
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Mameluco Ignifugo Pruni</small>$9400</h4>
+                                          <picture>
+                                                <img src="images/2.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Camisa de Trabajo Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/3.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Camisa Pampero Beige</small></h4>
+                                          <picture>
+                                                <img src="images/4.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Bombacha de Campo Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/5.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Protector Lumbar Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/6.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Pantalón Cargo Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/7.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Camisa Pruni</small></h4>
+                                          <picture>
+                                                <img src="images/8.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Bota Petrolera Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/9.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
 
-    <div class="slider">
-        <ul id="autoWidth" class="cs-hidden">
-        <!--1------------------------------------>	
-      <li class="item-a">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/1.jpg" alt="1">
-        <!--overlayer---------->
-        <div class="overlay">	
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Mameluco Ignifugo</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        <!--price-------->
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina." class="price">$9800</a>
-            
-        </div>
-        
-        </div>		
-    </li>
-        <!--2------------------------------------>	
-      <li class="item-b">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/2.jpg" alt="2">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Mameluco Ignifugo Pruni</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        <!--price-------->
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina." class="price">$9800</a>
-            
-        </div>
-        
-        </div>		
-    </li>
-        <!--3------------------------------------>	
-      <li class="item-c">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/3.jpg" alt="3">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Camisa de Trabajo Pampero</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        <!--price-------->
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina." class="price">$9800</a>
-            
-        </div>
-        
-        </div>		
-    </li>
-        <!--4------------------------------------>	
-      <li class="item-d">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/4.jpg" alt="4">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Camisa Pampero Beige</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        <!--price-------->
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina." class="price">$9800</a>
-            
-        </div>
-        
-        </div>		
-    </li>
-        <!--5------------------------------------>	
-      <li class="item-e">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/5.jpg" alt="5">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Bombacha de Campo Pampero</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        </div>
-        
-        </div>		
-    </li>
-        <!--6------------------------------------>	
-      <li class="item-f">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/6.jpg" alt="6">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Protector Lumbar Pampero</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        </div>
-        
-        </div>		
-    </li>
-        <!--7------------------------------------>	
-      <li class="item-g">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/7.jpg" alt="7">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Pantalón Cargo Pampero</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        </div>
-        
-        </div>		
-    </li>
-        <!--8------------------------------------>	
-      <li class="item-h">
-    <!--box-slider--------------->
-        <div class="box">
-        <!--img-box---------->
-        <div class="slide-img">
-        <img src="images/8.jpg" alt="8">
-        <!--overlayer---------->
-        <div class="overlay">
-        </div>
-        </div>
-        <!--detail-box--------->
-        <div class="detail-box">
-        <!--type-------->
-        <div class="type">
-        <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Camisa Pruni</a>
-        <span>Contactenos por Whatsapp</span>
-        </div>
-        </div>
-        
-        </div>		
-
-         <!--9------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/9.jpg" alt="9">
-            <!--overlayer---------->
-            <div class="overlay">
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Botas Tiro Alto Firestone</small></h4>
+                                          <picture>
+                                                <img src="images/10.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Botin Pampero Puntera Acero</small></h4>
+                                          <picture>
+                                                <img src="images/11.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Calzado de Seguridad Walk-Safery</small></h4>
+                                          <picture>
+                                                <img src="images/12.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Calzado de Seguridad Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/13.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Camisa Pampero Corte Amplio</small></h4>
+                                          <picture>
+                                                <img src="images/14.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Camisa Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/15.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Botas Petroleras Firestone</small></h4>
+                                          <picture>
+                                                <img src="images/16.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Botas de Goma Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/17.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Protector Lumbar Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/18.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Protector Lumbar Pampero</small></h4>
+                                          <picture>
+                                                <img src="images/19.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Borcegos Walk-Safery</small></h4>
+                                          <picture>
+                                                <img src="images/20.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="slick">
+                              <div>
+                                    <a href="/">
+                                          <h4><small>Borcegos Tacticos Walk-Safery</small></h4>
+                                          <picture>
+                                                <img src="images/21.jpg" alt="Image">
+                                          </picture>
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+                  <button class="slick-arrow slick-next" id="button-next">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                  </button>
             </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Bota Petrolera Pampero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>
-
-                     <!--10------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/10.jpg" alt="10">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Botas Tiro Alto Firestone</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--11------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/11.jpg" alt="11">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Botin Pampero Puntera Acero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>
-            
-                     <!--12------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/12.jpg" alt="12">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Rabbed Cardigan</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>
-            
-                     <!--13------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/13.jpg" alt="13">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Calzado de Seguridad Pampero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--14------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/14.jpg" alt="14">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Camisa Pampero Corte Amplio</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--15------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/15.jpg" alt="15">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Camisa Pampero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--16------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/16.jpg" alt="16">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Botas Petroleras Firestone</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--17------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/17.jpg" alt="17">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Botas de Goma Pampero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--18------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/18.jpg" alt="18">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Protector Lumbar Pampero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--19------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/19.jpg" alt="19">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Protector Lumbar Pampero</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            <!--price-------->
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina." class="price"></a>
-                
-            </div>
-            
-            </div>	
-
-                     <!--20------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/20.jpg" alt="20">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Borcegos Walk-Safery</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-
-                     <!--21------------------------------------>	
-      <li class="item-h">
-        <!--box-slider--------------->
-            <div class="box">
-            <!--img-box---------->
-            <div class="slide-img">
-            <img src="images/21.jpg" alt="21">
-            <!--overlayer---------->
-            <div class="overlay">
-            </div>
-            </div>
-            <!--detail-box--------->
-            <div class="detail-box">
-            <!--type-------->
-            <div class="type">
-            <a href="https://api.whatsapp.com/send?phone=542996201407&text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20los%20productos%20que%20se%20encuentran%20en%20tu%20p%C3%A1gina.">Borcegos Tacticos Walk-Safery</a>
-            <span>Contactenos por Whatsapp</span>
-            </div>
-            </div>
-            
-            </div>	
-    </li>
-      
-    </ul>
-</div>
+      </article>
     
     <!--Contactanos-->
     <article id="contact-me" class="contact-me">
