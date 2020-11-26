@@ -40,3 +40,12 @@
 .my-float{
 	margin-top:16px;
 }
+
+@media(max-width:320px){
+	.float{
+		right:10px;
+	}
+	.float2{
+		right:10px;
+	}
+}
