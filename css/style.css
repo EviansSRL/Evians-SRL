@@ -53,12 +53,29 @@ nav > a:hover{
     font-size: 60px;
 }
 
-.text-container p:nth-child(3){
-    font-family: myriad pro regular;
-    color: #403e3e;
-    font-size: 30px;
-    line-height: 30px;
+@media screen and (max-width:450px){
+    .text-container p:nth-child(1){
+        font-size: 20px;
+    }
+    
+    .text-container p:nth-child(2){
+        font-size: 45px;
+    }
 }
+
+@media screen and (max-width:320px){
+    .text-container p:nth-child(1){
+        font-size: 20px;
+    }
+    
+    .text-container p:nth-child(2){
+        font-size: 35px;
+    }
+}
+
+
+
+
 
 .text-container p{
     line-height: 20px;
