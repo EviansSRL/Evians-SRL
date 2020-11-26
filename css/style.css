@@ -69,8 +69,8 @@ nav > a:hover{
 }
 
 .text-container p{
-    line-height: 0px;
-    margin: 45px 0px 25px;
+    line-height: 20px;
+    margin: 0px 0px 25px;
 }
 
 .text-container{
@@ -180,9 +180,19 @@ nav > a:hover{
 	margin: 25px;
 }
 
+h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+
 .carousel{
     display: flex;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     align-items: center;
   }
@@ -197,6 +207,15 @@ nav > a:hover{
     width: 100%;
     margin: 0;
   }
+
+  @media(max-width:400px){
+    .carousel{
+        display: flex;
+        height: 85vh;
+        width: 100%;
+        align-items: center;
+      }
+}
   
   /*Imagenes*/
   
@@ -205,7 +224,7 @@ nav > a:hover{
     display: flex;
     align-items: center;
     width: fit-content;
-    height: 500px;
+    height: 450px;
     padding: 10px 0px;
     margin: 0px auto;
     max-width: 90vw;
